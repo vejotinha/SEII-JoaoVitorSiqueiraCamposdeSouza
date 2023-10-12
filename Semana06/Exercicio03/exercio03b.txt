@@ -1,0 +1,7 @@
+1) qual o limite de bytes a serem enviados porpacotesTCP e UDP
+	Ambos possuem 65535 bytes, sendo que o TCP tem de 20-80 de cabeçalho, sendo 20 do cabeçalho IP (65435 bytes.) e no UDP 8 do cabeçalho UDP e os mesmos 20 do cabeçalho IP (65507 bytes)
+2) como um arquivo grande pode ser transmitido via internet
+	Se utilizando dos protocos TCP e UDP;
+3) qual a diferença entre as implementações TCP e UDP para esse problema
+	TCP te garente um envio de qualidade elevada sem perca do conteudo;
+	UDP envio rápido, mas alguns arquivos podem se perder.
